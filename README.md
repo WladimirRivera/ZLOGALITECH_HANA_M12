@@ -1,0 +1,2 @@
+# ZLOGALITECH_HANA_M12
+Mastar hana 1
