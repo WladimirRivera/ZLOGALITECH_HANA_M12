@@ -1,0 +1,6 @@
+@EndUserText.label: 'Class 5.02: Role that blocks all access'
+@MappingRole: true
+define role ZDCL_05_02_CARRIER_DENY {
+  grant select on ZCDS_05_02_CARRIER_DENY
+    where false;
+}

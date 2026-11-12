@@ -1,0 +1,7 @@
+@EndUserText.label: 'Class 5.01: Role with PFCG aspect'
+@MappingRole: true
+define role ZDCL_05_01_AGENCY {
+  grant select on ZCDS_05_01_AGENCY
+    where ( CountryCode ) = aspect pfcg_auth( /DMO/TRVL, /DMO/CNTRY, ACTVT = '03'  ) and 
+            CountryCode  = 'US';
+}

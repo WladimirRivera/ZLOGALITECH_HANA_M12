@@ -1,0 +1,21 @@
+@Metadata.layer: #CORE
+annotate entity ZCDS_05_04_CONN_PARAM with
+  parameters
+    @EndUserText.label: 'Departure Airport'
+    pAirportFrom
+{
+  @UI.lineItem: [{ position: 10 }]
+  @EndUserText.label: 'Airline'
+  CarrierId;
+
+  @UI.lineItem: [{ position: 20 }]
+  @EndUserText.label: 'Connection'
+  ConnectionId;
+
+  @UI.lineItem: [{ position: 30 }]
+  @EndUserText.label: 'Arrival Airport'
+  AirportToId;
+
+  @UI.lineItem: [{ position: 40 }]
+  Distance;
+}

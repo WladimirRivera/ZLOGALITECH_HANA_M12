@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service Definition'
+define service ZCDS_04_07_SERVICE_DEF
+{
+  expose ZCDS_04_01_ASSOCIATIONS as Travel;
+  expose ZCDS_04_05_CUST_PROJ as Customer;
+}

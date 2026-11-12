@@ -1,0 +1,7 @@
+@EndUserText.label: 'Class 5.01: Role with literal conditions'
+@MappingRole: true
+define role ZDCL_05_01_TRAVEL {
+  grant select on ZCDS_05_01_TRAVEL
+    where CurrencyCode = 'EUR'
+      and Status       <> 'P';
+}

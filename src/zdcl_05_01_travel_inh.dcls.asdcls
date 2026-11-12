@@ -1,0 +1,6 @@
+@EndUserText.label: 'Class 5.01: Role inheriting conditions'
+@MappingRole: true
+define role ZDCL_05_01_TRAVEL_INH {
+  grant select on ZCDS_05_01_TRAVEL_INH
+    where inheriting conditions from entity ZCDS_05_01_TRAVEL;
+}

@@ -1,0 +1,11 @@
+@EndUserText.label: 'Access Control Privileged Only'
+@MappingRole: true
+define role ZDCL_AC_TEST {
+    grant
+        select
+            on
+                ZCDS_05_02_CARRIER_PRIV
+                    where
+                        false;
+                        
+}

@@ -1,0 +1,6 @@
+@EndUserText.label: 'Class 5.02: Role without restrictions'
+@MappingRole: true
+define role ZDCL_05_02_CARRIER_FULL {
+  grant select on ZCDS_05_02_CARRIER_FULL
+    where true;
+}

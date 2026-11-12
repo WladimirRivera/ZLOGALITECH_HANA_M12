@@ -1,0 +1,12 @@
+@Metadata.layer: #LOCALIZATION
+annotate entity ZCDS_05_03_CONNECTION with
+{
+  @EndUserText.label: 'Airline (LOCALIZATION)'
+  CarrierId;
+
+  @EndUserText.label: 'Connection (LOCALIZATION)'
+  ConnectionId;
+
+  @EndUserText.label: 'Departure Airport (LOCALIZATION)'
+  AirportFromId;
+}

@@ -1,0 +1,6 @@
+@Metadata.layer: #INDUSTRY
+annotate entity ZCDS_05_03_CONNECTION with
+{
+  @EndUserText.label: 'Airline (INDUSTRY)'
+  CarrierId;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Class 7.04: Booking analytics service'
+define service ZSD_07_04_BOOKING_ANALYTICS {
+  expose ZCDS_P_07_03_BOOKING_QUERY as BookingAnalytics;
+}

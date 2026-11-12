@@ -1,0 +1,7 @@
+@EndUserText.label: 'Class 6.02: Flight service'
+define service ZSD_06_02_FLIGHT_SERVICE {
+  expose ZCDS_P_06_02_CONNECTION   as Connection;
+  expose ZCDS_P_06_03_BOOKING      as Booking;
+  expose ZCDS_06_03_CUSTOMER_VH    as CustomerVH;
+  expose ZCDS_06_04_CUSTOMER_FUZZY as CustomerSearch;
+}
